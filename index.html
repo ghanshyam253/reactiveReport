@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AngularJS Template</title>
+        <meta name="description" content="AngularJS Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <style>
+/*
+            md-tabs-wrapper{
+                background-color: #0C1C49 !important;
+                color: white;
+            }
+            .md-tab{
+                color:white !important;
+            }
+            md-tabs.md-default-theme .md-tab.md-active, md-tabs .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-active md-icon, md-tabs .md-tab.md-active md-icon, md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused, md-tabs.md-default-theme .md-tab.md-focused md-icon, md-tabs .md-tab.md-focused md-icon{
+                color:#0C1C49 !important;
+                background-color: white !important;
+                
+            }
+*/
+            md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar{
+                color: #0C1C49 !important;
+                background: #0C1C49 !important;
+            }
+        
+        </style>
+    </head>
+    <body >
+        
+        <div ng-controller="AppCtrl" class="sample container-fluid" layout="column" ng-cloak >
+            <div layout="column">
+                <div >
+                    <div>
+                        <div  class="tab-title-vertial md-padding" style="float: left; background-color: #0C1C49; color:white;font-size: x-large; 
+     text-transform: uppercase;">
+                            Your Main Benefits
+                        </div>
+                        <div >
+                            <md-content class="md-padding">
+                                <md-tabs md-selected="selectedIndex" md-dynamic-height md-border-bottom md-autoselect md-swipe-content >
+                                    <md-tab ng-repeat="tab in tabs" ng-disabled="tab.disabled" label="{{tab.title}}">
+                                        <!--div class="demo-tab tab{{$index%4}}" style="padding: 25px; text-align: center;">
+                                            <div ng-bind="tab.content"></div>
+                                            <br/>
+                                        </div-->
+                                        <md-content class="md-padding">
+                                            <h1 class="md-display-2">Tab {{$index}}</h1>
+                                            <p ng-bind="tab.content"></p>
+                                        </md-content>
+                                    </md-tab>
+                                </md-tabs>
+                            </md-content>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Bower scripts: -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-aria/angular-aria.js"></script>
+        <script src="bower_components/angular-messages/angular-messages.js"></script>
+        <script src="bower_components/angular-material/angular-material.js"></script>
+        <!-- Application scripts: -->
+        <script src="core/app.js"></script>
+
+        
+<!--
+        <script src="common/constants/constants.js"></script>
+        <script src="common/filters/filters.js"></script>
+-->
+    </body>
+</html>
