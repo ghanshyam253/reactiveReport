@@ -1,0 +1,17 @@
+<div>
+<input ng-model="restService.cascadeName">
+<div>
+	<div>
+		<b>Child Services</b>
+	<button ng-click="addChildRestService($event,restService,$index)">add Child</button>
+		
+	</div>
+	<div ng-repeat="restService in restService.childServices" style="padding:10px; border:1px solid grey">
+		<p style="position: absolute;right: 50px;"><button ng-click = "removeChildService(restService,$index, $event)"> remove</button></p>
+		<div ng-include="'myTable.htm'"></div>
+			{{$index}}
+			parent path: {{restService.parentPath}}
+			parent path Array: {{restService.parentPathArray}}
+	</div>
+</div>
+</div>
