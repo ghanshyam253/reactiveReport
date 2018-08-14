@@ -24,11 +24,18 @@
 }
 
 .casc-tab-backColor{
+/*
     background-color: #009688;
+*/
 }
 md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+/*
     color: rgb(0, 150, 136);
     background: rgb(0, 150, 136);
+*/
+    
+    color: rgb(12, 28, 73);
+    background: rgb(12, 28, 73);
 }
 
 .header-wrapper{
@@ -84,7 +91,10 @@ a:focus,a:hover, a:active {
 }
 
 .panel-heading {
+/*
   background-color: #009688;
+*/
+  background-color: #0C1C49; 
   border-radius: 0;
   border: none;
   color: #fff;
@@ -144,7 +154,7 @@ a:focus,a:hover, a:active {
   position: absolute;
   font-family: 'Material Icons';
   right: -10px;
-  top: 0px;
+  top: -5px;
   font-size: 24px;
   transition: all 0.5s;
   transform: scale(1);
@@ -210,3 +220,12 @@ a:focus,a:hover, a:active {
   transition: all 0.5s;
 }
 <!-- casacdes-->
+
+
+.text-align-center{
+    text-align:center;
+}
+
+.md-padding.cascade-header{
+    padding: 12px 16px !important;
+}

@@ -118,7 +118,7 @@
           ],
           "Type": "Tab",
           "Order": 2,
-          "Name": "Your Main Benefits",
+          "Name": "Your Main Benefit Samples",
           "Description": "This is report cascade under report tab unit testing.",
           "Id": 300,
           "ParentId": 200
@@ -475,7 +475,7 @@
       "Type": "Cascade",
       "Order": 2,
       "Name": "Your Benefits",
-      "Description": "This is report tab under report unit testing.",
+      "Description": "This  is report tab under report unit testing.",
       "Id": 200,
       "ParentId": 100
     },

@@ -13,6 +13,33 @@
             $scope.headerTabs = headerTabs;
     });
         
+    	
+	 $scope.topDirections = ['left', 'up'];
+	 $scope.bottomDirections = ['down', 'right'];
+
+	 $scope.availableModes = ['md-fling', 'md-scale'];
+	 $scope.selectedMode = 'md-fling';
+
+	 $scope.availableDirections = ['up', 'down', 'left', 'right'];
+     $scope.selectedDirection = 'up';
+      
+    $scope.isBottomSlideOpen = false;  
+    /*if($scope.isBottomSlideOpen == false) 
+       $scope.isBottomSlideOpen = true; 
+    else
+       $scope.isBottomSlideOpen = false; */
+        
+    $scope.showBottomMenuBlock = false; 
+    $scope.bottomMenuBtn = function(){
+            if($scope.showBottomMenuBlock == false)
+                $scope.showBottomMenuBlock = true;
+            else
+                $scope.showBottomMenuBlock = false;
+     }
+     $scope.closebottomMenuBlock = function(){
+         $scope.showBottomMenuBlock = false;
+     }
+
     function generateSubSectionsinSubTab(cascData) {
         setTimeout(function () {
             for(var k=0;k<cascData.layout.ReportSections.length; k++){
@@ -88,8 +115,7 @@
             $scope[subTabList] = cascData.layout.ReportSections;
             
             var hideShowSTab = "showTab"+cascData.headerTabIndex+""+cascData.cascIndex;
-            
-            var divSubTab = generateBlock("div","","md-padding tab-and-cascade ","","");
+            var divSubTab = generateBlock("div","","md-padding tab-and-cascade layout-column","",{"layout":"column"});
             var divCascadeHeader = generateBlock("div","","md-padding animate-show cascade-header cascade-text","",{"ng-click":"hideShowSubTab($event, '"+hideShowSTab+"')","ng-hide":hideShowSTab});
             var anchorCollapse = generateBlock("a",cascData.layout.Name,"","",{"href":"#"}); 
             divCascadeHeader.append(anchorCollapse);
@@ -134,8 +160,7 @@
         console.log("inside generateSubTab"+ cascData.HeaderTabContentID)
         console.log(cascData);
         var cascId = "casc"+cascData.headerTabIndex+""+cascData.cascIndex;
-
-        var divCascade = generateBlock("div","","panel md-padding","","");
+        var divCascade = generateBlock("div","","panel md-padding layout-column","",{"layout":"column"});
         var divPanelHeading = generateBlock("div","","panel-heading","",{"ng-click":"cascadeClick($event)"});
         var h4PanelTitle = generateBlock("h4","","panel-title","",""); 
         var anchorCollapse = generateBlock("a",cascData.layout.Name,"","",{"data-toggle":"collapse","data-parent":"#","href":"#"+cascId}); 
@@ -144,7 +169,7 @@
         divPanelHeading.append(h4PanelTitle);
         
         var divPanelCollapse = generateBlock("div","","panel-collapse collapse",cascId,""); 
-        var divPanelBody = generateBlock("div","They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.","panel-body","",""); 
+        var divPanelBody = generateBlock("div","They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow","panel-body","",""); 
         
         divPanelCollapse.append(divPanelBody);
         divCascade.append(divPanelHeading);

@@ -89,14 +89,78 @@
 		border-style: none
 	}
 	.cascade-header{
-/*
+
 		background-color: #0C1C49; 
-*/
-        background-color: #009688;
-		color:white;
+/*        background-color: #009688;
+*/		color:white;
 		font-size: 18px; 
 		text-transform: uppercase;
 	}
+            
+    .bottomBlockPosition{
+            position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .menu-content{
+       width: 261px;
+    }
+           
+
+    .md-fab-action-item{
+        bottom: 147px;
+        right: 0px;
+        opacity: 1 !important;
+        z-index: 21 !important;
+        position: absolute;
+        transform: translateY(82.5px) !important;
+        background: white;
+    }
+
+    .link-resources-header{
+        padding: 8px 6px;
+        margin: 10px 8px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .custom-bullet li {
+    display: block;
+    padding: 2px 0px;
+}
+
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+            
+.link-resources-section{
+    float: right; 
+    width: 250px;
+}
+@media (max-width: 1080px) {
+    #bs-collapse{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .tab-header-containt{
+        order: 1;
+        width: 100%;
+    }
+    .link-resources-section{
+        order: 2;
+        width: 100%;
+        clear:both;
+    }
+    
+}
+            
         </style>
         
         	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -123,7 +187,7 @@
         
         
         
-        <div ng-controller="AppCtrl" class="sample " layout="column" ng-cloak >
+        <div ng-controller="AppCtrl" class="sample " layout="column" ng-cloak style="border: 1px solid #0c1c496e;">
             
             <div layout="column">
                 <div >
@@ -135,45 +199,28 @@
                                 <md-tabs md-selected="selectedHeaderTab" md-dynamic-height md-border-bottom md-autoselect md-swipe-content >
                                     <md-tab ng-repeat="tab in headerTabs" ng-disabled="tab.disabled" label="{{tab.Name}}" md-on-select="onTabSelected($index)">
                                         <md-content flex layout-padding>
+                                           
+                                            
                                             <div layout="column">
-                                                <div class="panel-group wrap" id="bs-collapse" >
-                                                    <div id = "tab-header-containt-{{$index}}"></div>
+                                                <div class="panel-group wrap" id="bs-collapse" style="">
+                                                     <div style="" class = "link-resources-section">
+                                                             <div class="link-resources-header" id ="link-resources-header">
+                                                                LINKS & RESOURCES
+                                                            </div>
+                                                            <ul class="custom-bullet">
+                                                                <li><a href="https://www.w3schools.com">Contact your fund/participating employer’s financial adviser </a></li>
+                                                                <li><a href="https://www.w3schools.com">View our online Calculators </a></li>
+                                                                <li><a href="https://www.w3schools.com">View trustee communication </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    
+                                                    <div id = "tab-header-containt-{{$index}}" class="tab-header-containt">
+                                                    
+                                                        
+                                                    
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <!--
-                                                        <div layout="column">
-                <div >
-                    <div class = "md-padding tab-and-cascade">
-						<div ng-click = "changeTaba()"  class=" md-padding animate-show cascade-header" style="" ng-hide = "showTab">
-                            Your Main Benefitsss
-                        </div>
-						<div  class="animate-show" ng-show = "showTab">
-							<div   ng-click = "changeTaba()" class="tab-title-vertial md-padding cascade-header" style="float: left">
-								Your Main Benefits
-							</div>
-							
-                            <md-content class="">
-                                <md-tabs md-selected="selectedIndex" md-dynamic-height md-border-bottom md-autoselect md-swipe-content >
-                                    <md-tab ng-repeat="tab in tabs" ng-disabled="tab.disabled" label="{{tab.Name}}">
-                                        <md-content flex layout-padding>
-                                            <p id = "contait-{{$index}}" ng-bind="tab.content"></p>
-                                        </md-content>
-                                    </md-tab>
-                                </md-tabs>
-                            </md-content>
-						</div>
-                    </div>    
-					<div class = "md-padding "> 
-						<div ng-click = "changeTaba()"  class=" md-padding cascade-header" >
-                            Your Main Benefits
-                        </div>
-					</div>
-                </div>
-            </div>
-                                            -->
-                                            
-                                            
-                                            
                                         </md-content>
                                     </md-tab>
                                 </md-tabs>
@@ -183,6 +230,63 @@
 					
                 </div>
             </div>
+            
+            <div class="fabSpeedDialdemoBasicUsage">
+			 <md-content class="md-padding" layout="column">
+                <div class="lock-size" layout="row" layout-align="center center">
+                    <md-fab-speed-dial class="bottomBlockPosition" md-open="isBottomSlideOpen" md-direction="{{selectedDirection}}" ng-class="selectedMode">
+                        <md-fab-trigger>
+                        <md-button aria-label="menu" class="md-fab md-warn" ng-click="bottomMenuBtn()">
+                            <md-icon md-svg-src="assets/images/menu.svg"></md-icon>
+                        </md-button>
+                        </md-fab-trigger>
+
+                        <md-fab-actions>
+                            <div class="menu-panel bottomContentBlockPosition" md-whiteframe="4"  ng-show="showBottomMenuBlock">
+                                <div class="menu-content">
+                                    <div class="menu-item"> 
+                                        <div class="link-resources-header" id ="link-resources-header">
+                                            LINKS & RESOURCES
+                                        </div>
+<!--
+                                        <button class="md-button">
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+                                        </button>
+                                        <button class="md-button">
+                                            <span>View our online Calculators</span>
+                                        </button> 
+                                        <button class="md-button">
+                                            <span>View trustee communication</span>
+                                        </button>
+
+                                        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+                                        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+                                        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+-->
+                                        <ul class="custom-bullet">
+                                            <li><a href="https://www.w3schools.com">Contact your fund/participating employer’s financial adviser </a></li>
+                                            <li><a href="https://www.w3schools.com">View our online Calculators </a></li>
+                                            <li><a href="https://www.w3schools.com">View trustee communication </a></li>
+                                        </ul>
+
+                                        
+                                    </div>
+                                    <md-divider></md-divider>
+                                    <div class="menu-item text-center" >
+                                    <button class="md-button" ng-click="closebottomMenuBlock()">
+                                        <span>Close Menu</span>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-fab-actions>
+                    </md-fab-speed-dial>
+                </div>
+
+                </md-content>
+			</div>
+            
         </div>
         
         
