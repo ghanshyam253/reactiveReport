@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>2 Interactive Reports</title>
+        <meta name="description" content="AngularJS Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+<!--
+        <link rel="stylesheet" href="assets/css/custom-styles.css">
+-->
+        
+        <!-- cascades-->
+
+
+        <style>
+/*
+            md-tabs-wrapper{
+                background-color: #0C1C49 !important;
+                color: white;
+            }
+            .md-tab{
+                color:white !important;
+            }
+            md-tabs.md-default-theme .md-tab.md-active, md-tabs .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-active md-icon, md-tabs .md-tab.md-active md-icon, md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused, md-tabs.md-default-theme .md-tab.md-focused md-icon, md-tabs .md-tab.md-focused md-icon{
+                color:#0C1C49 !important;
+                background-color: white !important;
+                
+            }
+
+            md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar{
+                color: #0C1C49 !important;
+                background: #0C1C49 !important;
+            }
+		*/
+		
+  .animate-show {
+    opacity:1;
+  }
+
+  .animate-show.ng-hide-add.ng-hide-add-active,
+  .animate-show.ng-hide-remove.ng-hide-remove-active {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+  }
+.animate-show.ng-hide-add.ng-hide-add-active:after,
+  .animate-show.ng-hide-remove.ng-hide-remove-active:after {
+		   content: " ";
+		   display: block; 
+		   height: 0; 
+		   clear: both;
+  }
+  .animate-show.ng-hide {
+    line-height:0;
+    opacity:0;
+  }
+  .animate-show.ng-hide:after { 
+	   content: " ";
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+	}
+
+	.tab-and-cascade:after { 
+	   content: " ";
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+	}
+		
+	md-tabs-canvas{
+/*
+		background-color: white;
+*/
+        background-color: #0C1C49 !important;
+    }
+	md-tabs[md-border-bottom] md-tabs-wrapper {
+	    padding-top: 5px;
+		background-color: #0c1c49;
+		border-style: none
+	}
+	.cascade-header{
+
+		background-color: #0C1C49; 
+/*        background-color: #009688;
+*/		color:white;
+		font-size: 18px; 
+		text-transform: uppercase;
+	}
+            
+    .bottomBlockPosition{
+            position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .menu-content{
+       width: 261px;
+    }
+           
+
+    .md-fab-action-item{
+        bottom: 147px;
+        right: 0px;
+        opacity: 1 !important;
+        z-index: 21 !important;
+        position: absolute;
+        transform: translateY(82.5px) !important;
+        background: white;
+    }
+
+    .link-resources-header{
+        padding: 8px 6px;
+        margin: 10px 8px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding-top: 0px;
+        margin-top: 3px;
+    }
+    .custom-bullet li {
+    display: block;
+    padding: 2px 0px;
+}
+
+<!-- popup-->
+            
+.popup_container,.modal-content{
+    padding:5px 10px 10px 10px;
+    background-color:#0c1c49;
+}
+.popup_container .modal-header{ 
+  padding: unset;
+  padding-top: 6px;
+    color:white;
+}
+.popup_container .modal-body{
+    background-color:white;
+}
+.popup_container .close {
+    color: white;
+    opacity: 1 !important;
+}
+.fade.in {
+    background-color: #ffffff80;
+}   
+
+#myModalList .modal-dialog{
+    padding-top: 125px;
+}
+            
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+            
+.link-resources-section{
+    float: right; 
+    width: 250px;
+    border-left: 3px dotted black;
+    margin-top: 26px;
+}
+#bs-collapse{
+    width:100%;
+}
+.tab-details{
+}
+@media (max-width: 900px) {
+    .tab-content{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .tab-details{
+        order: 1;
+        width: 100%;
+    }
+    .tab-header-containt{
+        order: 1;
+        width: 100%;
+    }
+    .link-resources-section{
+        order: 2;
+        width: 100%;
+        clear:both;
+        border:none;
+    }
+}
+            
+        </style>
+        
+        	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script>
+	</script>
+
+    </head>
+    <body class="container-fluid">
+        <div class="header-wrapper">
+            <div class="site-name">
+                <div class="" style="float:left;">
+                <p>Member Benifit Statement as at 01 April 2016</p>
+                <p>Member Number</p>
+                <p>Private and confidential</p>
+                </div>
+                <!-- <div class="logo" style="float:right;">
+                <img src="assets/images/liberty-sponsor-logo-600x600.png" />  
+                </div> -->
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        
+        
+        
+        <div ng-controller="AppCtrl" class="sample " layout="column" ng-cloak style="border: 1px solid #0c1c496e;">
+             <div id = "myModalList"></div>
+            <div layout="column">
+                <div >
+                    <div class = "md-padding tab-and-cascade">
+						
+						<div  class="animate-show" >
+							
+                            <md-content class="">
+                                <md-tabs md-selected="selectedHeaderTab" md-dynamic-height md-border-bottom md-swipe-content >
+                                    <md-tab ng-repeat="tab in headerTabs" ng-disabled="tab.disabled" label="{{tab.name}}" md-on-select="onTabSelected($index)">
+                                        <md-content flex layout-padding class="tab-content">
+                                            <div style="" class = "link-resources-section">
+                                                 <div class="link-resources-header" id ="link-resources-header">
+                                                    LINKS & RESOURCES
+                                                </div>
+                                                <ul class="custom-bullet">
+                                                    <li><a href="https://www.w3schools.com">Contact your fund/participating employer’s financial adviser </a></li>
+                                                    <li><a href="https://www.w3schools.com">View our online Calculators </a></li>
+                                                    <li><a href="https://www.w3schools.com">View trustee communication </a></li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <div layout="column " class="tab-details">
+                                               
+                                                <div class="panel-group " id="bs-collapse" style="">
+                                                     
+                                                    
+                                                    <div id = "tab-header-containt-{{$index}}" class="tab-header-containt">
+                                                    
+                                                        
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </md-content>
+                                    </md-tab>
+                                </md-tabs>
+                            </md-content>
+						</div>
+                    </div>    
+					
+                </div>
+            </div>
+            
+
+            
+        </div>
+        
+        
+        
+        <!-- Bower scripts: -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-aria/angular-aria.js"></script>
+        <script src="bower_components/angular-messages/angular-messages.js"></script>
+        <script src="bower_components/angular-material/angular-material.js"></script>
+        <!-- Application scripts: -->
+        <script src="core/app.js"></script>
+
+        
+<!--
+        <script src="common/constants/constants.js"></script>
+        <script src="common/filters/filters.js"></script>
+-->
+    </body>
+</html>

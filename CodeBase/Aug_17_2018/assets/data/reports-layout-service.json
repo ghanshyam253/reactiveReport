@@ -1,0 +1,1930 @@
+{
+  "type": null,
+  "order": 0,
+  "header": null,
+  "reportTabs": [
+    {
+      "reportCascades": [
+        {
+          "reportSections": [
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [],
+                  "type": "lablevalue",
+                  "order": 1,
+                  "header": null,
+                  "name": "If something happens to you",
+                  "description": null,
+                  "id": 1,
+                  "parentId": 1
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": "THE ILLUSTRATIVE VALUE OF YOUR TOTAL BENEFIT IS :temp.temp:currency",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 1,
+                      "header": ">If you retire at age 65",
+                      "name": null,
+                      "description": null,
+                      "id": 58,
+                      "parentId": 2
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "You may take all or part of this total benefit as a cash lump sum and purchase an annuity (payable in instalments) with the balance.",
+                      "dataPath": null,
+                      "displayType": "",
+                      "type": "Paragraph",
+                      "order": 2,
+                      "header": ">If you retire at age 65",
+                      "newLinesAtBottom": 1,
+                      "name": null,
+                      "description": null,
+                      "id": 59,
+                      "parentId": 2
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important note on <span title=\"The illustrative value reflected is represented in a future money terms. To achieve this, the retirement value calculation assumes a future rate of return of 10% per year i.e. investment returns exceed salary increases (in line with inflation) by 3% per year. The calculation is for illustrative purposes only and is not guaranteed.\"><u>Illustrative values</u></span>",
+                      "dataPath": null,
+                      "displayType": "italic",
+                      "type": "Paragraph",
+                      "order": 3,
+                      "header": ">If you retire at age 65",
+                      "name": null,
+                      "description": null,
+                      "id": 60,
+                      "parentId": 2
+                    }
+                  ],
+                  "type": "linkpopup",
+                  "order": 2,
+                  "header": null,
+                  "name": ">If you retire at age 65",
+                  "description": null,
+                  "id": 2,
+                  "parentId": 1
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": "IF YOU RESIGN, GET RETRENCHED OR DISMISSED, THE FOLLOWING BENEFIT BECOMES PAYABLE :temp.temp:currency",
+                      "paraText": null,
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "displayType": "underlineElement;bold",
+                      "order": 1,
+                      "newLinesAtBottom": 1,
+                      "header": ">If you leave your employer",
+                      "name": null,
+                      "description": null,
+                      "id": 61,
+                      "parentId": 3
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important notes on <span title=\"Where applicable, benefits will be subject to taxation in terms of current tax laws.\"><u>Income tax</u></span> and <span title=\"In the event of a claim, benefits become payable where rules and policy conditions have been met.\"><u>Claims</u></span>",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "displayType": "italic",
+                      "order": 2,
+                      "header": ">If you leave your employer",
+                      "name": null,
+                      "description": null,
+                      "id": 62,
+                      "parentId": 3
+                    }
+                  ],
+                  "type": "linkpopup",
+                  "order": 3,
+                  "header": null,
+                  "name": ">If you leave your employer",
+                  "description": null,
+                  "id": 3,
+                  "parentId": 1
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "If you die while still employed the following benefits become payable ",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 1,
+                      "newLinesAtBottom": 1,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 63,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": "THE VALUE OF YOUR RETIREMENT ACCOUNT  :temp.temp:currency",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 2,
+                      "newLinesAtBottom": 1,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 7,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important notes on <span title=\"Where applicable, benefits will be subject to taxation in terms of current tax laws.\"><u>Income tax</u></span>, <span title=\"In terms of Section 37C of the Pension Funds Act, benefits payable to beneficiaries from an approved retirement fund/participating employer may be re-apportioned at the discretion of the trustees. If there are no dependants, and there is money in the estate, the payment will be made to the nominated non-dependant beneficiary (if any) and, failing this, to your estate. Unapproved death benefits are paid according to your latest nomination of beneficiary form in terms of the applicable policy’s terms and conditions.\"><u>Death benefits</u></span> and <span title=\"Medical evidence will be required if your entitled benefit is above the Free Cover Limit of the fund/participating employer. \"><u>Underwriting</u></span>",
+                      "dataPath": null,
+                      "displayType": "italic",
+                      "type": "Paragraph",
+                      "order": 4,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 65,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": "FAMILY BENEFIT",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 5,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 66,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": "The following amount becomes payable towards funeral expenses :temp.temp:curency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "displayType": "",
+                      "type": "labelvalue",
+                      "order": 6,
+                      "newLinesAtBottom": 1,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 67,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important note on <span title=\"Members and their immediate family who are insured for family benefits have access to Funeral Assist, a 24-hour service that will assist bereaved family members with: 1. funeral arrangements; and 2. transportation of the deceased, when more than 100kms away from their normal place of residence, anywhere within South Africa, Namibia, Mozambique, Botswana, Lesotho, Swaziland and Zimbabwe. To make use of the Funeral Assistance Benefits, call 0861 724 247 within South Africa or +27 11 952 6235 if you are calling from outside South Africa.\"><u>Funeral Assist</u></span>",
+                      "dataPath": null,
+                      "displayType": "italic",
+                      "type": "Paragraph",
+                      "order": 7,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 11,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": "*RESTRICTED BENEFITS",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 8,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 12,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "The following benefits have been restricted to the accepted benefit.",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 9,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 13,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Approved death benefit",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 10,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 71,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Please contact your scheme s financial adviser to establish why your accepted benefit is less than your entitled benefit.",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 11,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 15,
+                      "parentId": 4
+                    },
+                    {
+                      "displayFields": "TOTAL LUMP SUM DEATH BENEFIT (ACCEPTED BENEFIT) :temp.temp:curency",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "bold",
+                      "type": "labelvalue",
+                      "order": 12,
+                      "header": ">If you die while still employed",
+                      "name": null,
+                      "description": null,
+                      "id": 16,
+                      "parentId": 4
+                    }
+                  ],
+                  "type": "linkpopup",
+                  "order": 4,
+                  "header": null,
+                  "name": ">If you die while still employed",
+                  "description": null,
+                  "id": 4,
+                  "parentId": 1
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": "CAPITAL DISABILITY BENEFIT",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 1,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 17,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "If you become totally and permanently disabled, as defined in the policy, the following benefit becomes payable",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 2,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 75,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": "The value of your retirement account* :temp.temp:currency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "order": 3,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 19,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": "TOTAL LUMP SUM DISABILITY BENEFIT (ACCEPTED BENEFIT) :temp.temp:currency",
+                      "paraText": null,
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "order": 5,
+                      "newLinesAtBottom": 0,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 77,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "*",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 6,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 21,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important notes on <span title=\"Where applicable, benefits will be subject to taxation in terms of current tax laws.\">Income tax</span>, <span title=\"In the event of a claim, benefits become payable where rules and policy conditions have been met.\">Claims</span> and <span title=\"Medical evidence will be required if your entitled benefit is above the Free Cover Limit of the fund/participating employer.\">Underwriting</span>",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 7,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 79,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": "*RESTRICTED BENEFITS",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 8,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 23,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "The following benefits have been restricted to the accepted benefit.",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 9,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 81,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Approved capital disability benefit",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 10,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 25,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Please contact your scheme s financial adviser to establish why your accepted benefit is less than your entitled benefit. ",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 11,
+                      "newLinesAtBottom": 2,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 83,
+                      "parentId": 5
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important notes on <span title=\"Where applicable, benefits will be subject to taxation in terms of current tax laws.\">Income tax</span>, <span title=\"In the event of a claim, benefits become payable where rules and policy conditions have been met.\">Claims</span> and <span title=\"Medical evidence will be required if your entitled benefit is above the Free Cover Limit of the fund/participating employer.\">Underwriting</span>",
+                      "dataPath": null,
+                      "type": "italic",
+                      "order": 12,
+                      "header": ">If you become disabled",
+                      "name": null,
+                      "description": null,
+                      "id": 84,
+                      "parentId": 5
+                    }
+                  ],
+                  "type": "linkpopup",
+                  "order": 5,
+                  "header": null,
+                  "name": ">If you become disabled",
+                  "description": null,
+                  "id": 5,
+                  "parentId": 1
+                }
+              ],
+              "type": "Tab",
+              "order": 1,
+              "header": null,
+              "name": "MEMBER",
+              "description": "Member Tab section for \"YOUR MAIN BENEFITS-SUMMARY-MBS\" ",
+              "id": 1,
+              "parentId": 1
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [],
+                  "type": "lablevalue",
+                  "order": 1,
+                  "header": null,
+                  "name": "If something happens to your spouse ",
+                  "description": null,
+                  "id": 6,
+                  "parentId": 2
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": "FAMILY BENEFIT",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "ulabelvalue",
+                      "order": 1,
+                      "header": ">If your spouse dies",
+                      "name": null,
+                      "description": null,
+                      "id": 85,
+                      "parentId": 7
+                    },
+                    {
+                      "displayFields": "If your spouse dies, the following amount will become payable towards funeral expenses :temp.temp:currency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 2,
+                      "newLinesAtBottom": 1,
+                      "header": ">If your spouse dies",
+                      "name": null,
+                      "description": null,
+                      "id": 29,
+                      "parentId": 7
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important note on <span title=\"Members and their immediate family who are insured for family benefits have access to Funeral Assist, a 24-hour service that will assist bereaved family members with: 1. funeral arrangements; and 2. transportation of the deceased, when more than 100kms away from their normal place of residence, anywhere within South Africa, Namibia, Mozambique, Botswana, Lesotho, Swaziland and Zimbabwe. To make use of the Funeral Assistance Benefits, call 0861 724 247 within South Africa or +27 11 952 6235 if you are calling from outside South Africa.\"><u>Funeral Assist</u></span>",
+                      "dataPath": null,
+                      "displayType": "italic",
+                      "type": "Paragraph",
+                      "order": 3,
+                      "header": ">If your spouse dies",
+                      "name": null,
+                      "description": null,
+                      "id": 87,
+                      "parentId": 7
+                    }
+                  ],
+                  "type": "linkpopup",
+                  "order": 2,
+                  "header": null,
+                  "name": ">If your spouse dies",
+                  "description": null,
+                  "id": 7,
+                  "parentId": 2
+                }
+              ],
+              "type": "Tab",
+              "order": 2,
+              "header": null,
+              "name": "YOUR SPOUSE",
+              "description": "Spouse Tab section for \"YOUR MAIN BENEFITS-SUMMARY-MBS\" ",
+              "id": 2,
+              "parentId": 1
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": "FAMILY BENEFIT",
+                      "paraText": null,
+                      "dataPath": null,
+                      "displayType": "underlineElement;bold",
+                      "type": "labelvalue",
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 31,
+                      "parentId": 8
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "If any of your children die, the following amount will become payable towards funeral expenses",
+                      "dataPath": null,
+                      "type": "Paragraph",
+                      "order": 2,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 89,
+                      "parentId": 8
+                    },
+                    {
+                      "displayFields": "Each child aged between 14 and 21 :temp.temp:currency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "order": 3,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 33,
+                      "parentId": 8
+                    },
+                    {
+                      "displayFields": "Each child aged between 6 and 13 :temp.temp:currency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "order": 4,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 34,
+                      "parentId": 8
+                    },
+                    {
+                      "displayFields": "Each child under age 6 :temp.temp:currency",
+                      "paraText": "",
+                      "dataPath": null,
+                      "type": "labelvalue",
+                      "order": 5,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 35,
+                      "parentId": 8
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Refer to the important note on <span title=\"Members and their immediate family who are insured for family benefits have access to Funeral Assist, a 24-hour service that will assist bereaved family members with: 1. funeral arrangements; and 2. transportation of the deceased, when more than 100kms away from their normal place of residence, anywhere within South Africa, Namibia, Mozambique, Botswana, Lesotho, Swaziland and Zimbabwe. To make use of the Funeral Assistance Benefits, call 0861 724 247 within South Africa or +27 11 952 6235 if you are calling from outside South Africa.\"><u>Funeral Assist</u></span>",
+                      "dataPath": null,
+                      "displayType": "italic",
+                      "type": "paragraph",
+                      "order": 6,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 93,
+                      "parentId": 8
+                    }
+                  ],
+                  "type": "paragraph",
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 8,
+                  "parentId": 3
+                }
+              ],
+              "type": "Tab",
+              "order": 3,
+              "header": null,
+              "name": "YOUR CHILDREN",
+              "description": "Children Tab section for \"YOUR MAIN BENEFITS-SUMMARY-MBS\" ",
+              "id": 3,
+              "parentId": 1
+            }
+          ],
+          "type": "Tab",
+          "order": 1,
+          "header": null,
+          "name": "YOUR MAIN BENEFITS",
+          "description": "Member main benefits Cascade for Summary Tab in MBS Report",
+          "id": 1,
+          "parentId": 1
+        },
+        {
+          "reportSections": [
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "Liberty Corporate is committed to providing a holistic range of employee benefits solutions to our clients. We have negotiated an extended menu of business related and value-added services through an external professional services provider (Cims South Africa (Pty) Ltd) which are available to all Liberty Corporate clients, fund members, their spouses and dependents under the age of 21.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "newLinesAtBottom": 1,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "EMERGENCY MEDICAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 94,
+                      "parentId": 9
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "These value-added services are free and available 24 hours a day, 365 days a year in the member’s language of choice. To qualify for these services a client simply has to have a single Liberty Corporate risk or investment fund product.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 2,
+                      "header": null,
+                      "newLinesAtBottom": 1,
+                      "name": null,
+                      "description": "EMERGENCY MEDICAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 95,
+                      "parentId": 9
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Emergency Medical Information, Advice and Referral Hotline; Call: 0861 724 247 (within South Africa); Call: +27 11 952 6235",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 3,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "EMERGENCY MEDICAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 96,
+                      "parentId": 9
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "> VIEW MORE DETAIL ON THE EMERGENCY MEDICAL INFORMATION, ADVICE AND REFERRAL HOTLINE",
+                      "dataPath": "https://www.liberty.co.za/Pages/PageNotFoundError.aspx?requestUrl=https://www.liberty.co.za/our-brochures/Documents/our-brochures/201010-emergency-medical-information.pdf",
+                      "type": "hyperlink",
+                      "order": 4,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 97,
+                      "parentId": 9
+                    }
+                  ],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": "Employer free benefit subsection for Summary Tab in MBS Report",
+                  "id": 9,
+                  "parentId": 4
+                }
+              ],
+              "type": "Tab",
+              "order": 1,
+              "header": null,
+              "name": "EMERGENCY MEDICAL ADVICE",
+              "description": "Emergency medical advice Tab section for \"YOUR FREE BENEFITS-SUMMARY-MBS\" ",
+              "id": 4,
+              "parentId": 2
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "Liberty Corporate is committed to providing a holistic range of employee benefits solutions to our clients. We have negotiated an extended menu of business related and value-added services through an external professional services provider (Cims South Africa (Pty) Ltd) which are available to all Liberty Corporate clients, fund members, their spouses and dependents under the age of 21.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 1,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "EMERGENCY AMBULANCE SERVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 98,
+                      "parentId": 10
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "These value-added services are free and available 24 hours a day, 365 days a year in the member’s language of choice. To qualify for these services a client simply has to have a single Liberty Corporate risk or investment fund product.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "newLinesAtBottom": 1,
+                      "order": 2,
+                      "header": null,
+                      "name": null,
+                      "description": "EMERGENCY AMBULANCE SERVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 99,
+                      "parentId": 10
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Emergency Ambulance Service; Call: 0861 724 247 (within South Africa); Call: +27 11 952 6235",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "newLinesAtBottom": 1,
+                      "order": 3,
+                      "header": null,
+                      "name": null,
+                      "description": "EMERGENCY AMBULANCE SERVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 100,
+                      "parentId": 10
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "> VIEW MORE DETAIL ON THE EMERGENCY AMBULANCE SERVICE",
+                      "dataPath": "https://www.liberty.co.za/our-brochures/Documents/our-brochures/201010-emergency-ambulance-service.pdf",
+                      "type": "hyperlink",
+                      "order": 4,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 101,
+                      "parentId": 10
+                    }
+                  ],
+                  "type": null,
+                  "order": 2,
+                  "header": null,
+                  "name": null,
+                  "description": "Employer free benefit subsection for Summary Tab in MBS Report",
+                  "id": 10,
+                  "parentId": 5
+                }
+              ],
+              "type": "Tab",
+              "order": 2,
+              "header": null,
+              "name": "EMERGENCY AMBULANCE SERVICE",
+              "description": "Emergency ambulance advice Tab section for \"YOUR FREE BENEFITS-SUMMARY-MBS\" ",
+              "id": 5,
+              "parentId": 2
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "Liberty Corporate is committed to providing a holistic range of employee benefits solutions to our clients. We have negotiated an extended menu of business related and value-added services through an external professional services provider (Cims South Africa (Pty) Ltd) which are available to all Liberty Corporate clients, fund members, their spouses and dependents under the age of 21.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "newLinesAtBottom": 1,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "LEGAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 102,
+                      "parentId": 11
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "These value-added services are free and available 24 hours a day, 365 days a year in the member’s language of choice. To qualify for these services a client simply has to have a single Liberty Corporate risk or investment fund product.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "newLinesAtBottom": 1,
+                      "order": 2,
+                      "header": null,
+                      "name": null,
+                      "description": "LEGAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 103,
+                      "parentId": 11
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Legal Advice; Call: 0861 724 247 (within South Africa); Call: +27 11 952 6235",
+                      "dataPath": null,
+                      "newLinesAtBottom": 1,
+                      "type": "paragraph",
+                      "order": 3,
+                      "header": null,
+                      "name": null,
+                      "description": "LEGAL ADVICE-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 104,
+                      "parentId": 11
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "> VIEW MORE DETAIL ON THE LEGAL ADVICE SERVICE",
+                      "dataPath": "https://www.liberty.co.za/Pages/PageNotFoundError.aspx?requestUrl=https://www.liberty.co.za/our-brochures/Documents/our-brochures/201010-legal-advice.pdf",
+                      "type": "hyperlink",
+                      "order": 4,
+                      "header": null,
+                      "newLinesAtBottom": 1,
+                      "name": null,
+                      "description": null,
+                      "id": 105,
+                      "parentId": 11
+                    }
+                  ],
+                  "type": null,
+                  "order": 3,
+                  "header": null,
+                  "name": null,
+                  "description": "Employer free benefit subsection for Summary Tab in MBS Report",
+                  "id": 11,
+                  "parentId": 6
+                }
+              ],
+              "type": "Tab",
+              "order": 3,
+              "header": null,
+              "name": "LEGAL ADVICE",
+              "description": "Legal advice Tab section for \"YOUR FREE BENEFITS-SUMMARY-MBS\" ",
+              "id": 6,
+              "parentId": 2
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "Liberty Corporate is committed to providing a holistic range of employee benefits solutions to our clients. We have negotiated an extended menu of business related and value-added services through an external professional services provider (Cims South Africa (Pty) Ltd) which are available to all Liberty Corporate clients, fund members, their spouses and dependents under the age of 21.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 1,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "TRAUMA COUNSELLING-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 106,
+                      "parentId": 12
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "These value-added services are free and available 24 hours a day, 365 days a year in the member’s language of choice. To qualify for these services a client simply has to have a single Liberty Corporate risk or investment fund product.",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 2,
+                      "header": null,
+                      "newLinesAtBottom": 1,
+                      "name": null,
+                      "description": "TRAUMA COUNSELLING-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 107,
+                      "parentId": 12
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Trauma Counselling; Call: 0861 724 247 (within South Africa); Call: +27 11 952 6235",
+                      "dataPath": null,
+                      "type": "paragraph",
+                      "order": 3,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": "TRAUMA COUNSELLING-YOUR FREE BENEFITS-SUMMARY-MBS",
+                      "id": 108,
+                      "parentId": 12
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "> VIEW MORE DETAIL ON THE TRAUMA COUNSELLING SERVICE",
+                      "dataPath": "https://www.liberty.co.za/Pages/PageNotFoundError.aspx?requestUrl=https://www.liberty.co.za/our-brochures/Documents/our-brochures/201010-trauma-couselling.pdf",
+                      "type": "hyperlink",
+                      "order": 4,
+                      "newLinesAtBottom": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 109,
+                      "parentId": 12
+                    }
+                  ],
+                  "type": null,
+                  "order": 4,
+                  "header": null,
+                  "name": null,
+                  "description": "Employer free benefit subsection for Summary Tab in MBS Report",
+                  "id": 12,
+                  "parentId": 7
+                }
+              ],
+              "type": "Tab",
+              "order": 4,
+              "header": null,
+              "name": "TRAUMA COUNSELLING",
+              "description": "Trauma counselling Tab section for \"YOUR FREE BENEFITS-SUMMARY-MBS\" ",
+              "id": 7,
+              "parentId": 2
+            }
+          ],
+          "type": "Tab",
+          "order": 2,
+          "header": null,
+          "name": "YOUR FREE BENEFITS",
+          "description": "Free benefits Cascade for Summary Tab in MBS Report",
+          "id": 2,
+          "parentId": 1
+        },
+        {
+          "reportSections": [
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": ".[Name:temp.temp;Membership number:temp.temp;Payroll number:temp.temp;Date of birth:temp.temp;Normal retirement date:temp.temp;ID number:temp.temp;Normal retirement age:temp.temp;Date joined company:temp.temp;Marital status:temp.temp;Date joined fund/participating employer:temp.temp;Membership category:temp.temp;Annual pensionable salary:temp.temp:currency]",
+                      "paraText": "",
+                      "dataPath": null,
+                      "type": "multiplelabelvalue",
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 110,
+                      "parentId": 13
+                    }
+                  ],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 13,
+                  "parentId": 8
+                }
+              ],
+              "type": null,
+              "order": 1,
+              "header": null,
+              "name": null,
+              "description": null,
+              "id": 8,
+              "parentId": 3
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 30,
+                  "parentId": 9
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": "Please check your personal details on this statement and report any discrepancies to your Human Resources department or your fund/participating employer’s financial adviser",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 111,
+                      "parentId": 14
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Please check your personal details on this statement and report any discrepancies to your Human Resources department or your fund/participating employer’s financial adviser",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 54,
+                      "parentId": 14
+                    }
+                  ],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 14,
+                  "parentId": 9
+                }
+              ],
+              "type": null,
+              "order": 2,
+              "header": null,
+              "name": null,
+              "description": null,
+              "id": 9,
+              "parentId": 3
+            }
+          ],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "YOUR PERSONAL DETAILS",
+          "description": "Personal details Cascade for Summary Tab in MBS Report",
+          "id": 3,
+          "parentId": 1
+        },
+        {
+          "reportSections": [
+            {
+              "reportSubsections": [],
+              "type": "Cascade",
+              "order": 1,
+              "header": null,
+              "name": "EMPLOYER S FINANCIAL ADVISER",
+              "description": "Financial adviser Cascade for Summary Tab in MBS Report",
+              "id": 21,
+              "parentId": 4
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": ".[Name:temp.temp;Telephone:temp.temp;Cell:temp.temp;Email:temp.temp]",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 55,
+                      "parentId": 15
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": ".[Name:temp.temp;Telephone:temp.temp;Cell:temp.temp;Email:temp.temp]",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 112,
+                      "parentId": 15
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Note: It is important to obtain professional advice before electing a benefit or on termination of your membership.",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 2,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 113,
+                      "parentId": 15
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": "Note: It is important to obtain professional advice before electing a benefit or on termination of your membership.",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 2,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 56,
+                      "parentId": 15
+                    }
+                  ],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 15,
+                  "parentId": 10
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [],
+                  "type": null,
+                  "order": 1,
+                  "header": null,
+                  "name": null,
+                  "description": null,
+                  "id": 31,
+                  "parentId": 10
+                }
+              ],
+              "type": "Cascade",
+              "order": 1,
+              "header": null,
+              "name": "EMPLOYER S FINANCIAL ADVISER",
+              "description": "Financial adviser Cascade for Summary Tab in MBS Report",
+              "id": 10,
+              "parentId": 4
+            },
+            {
+              "reportSubsections": [
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [],
+                  "type": "paragraph",
+                  "order": 1,
+                  "header": null,
+                  "name": "Corporate Selection Retirement Fund No. 2",
+                  "description": null,
+                  "id": 32,
+                  "parentId": 11
+                },
+                {
+                  "displayFields": null,
+                  "paraText": null,
+                  "dataPath": null,
+                  "reportContents": [
+                    {
+                      "displayFields": null,
+                      "paraText": ".[Employer:temp.temp;Scheme number:temp.temp;Paypoint:temp.temp;Date of birth:temp.temp]",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 57,
+                      "parentId": 16
+                    },
+                    {
+                      "displayFields": null,
+                      "paraText": ".[Employer:temp.temp;Scheme number:temp.temp;Paypoint:temp.temp;Date of birth:temp.temp]",
+                      "dataPath": null,
+                      "type": null,
+                      "order": 1,
+                      "header": null,
+                      "name": null,
+                      "description": null,
+                      "id": 114,
+                      "parentId": 16
+                    }
+                  ],
+                  "type": "paragraph",
+                  "order": 1,
+                  "header": null,
+                  "name": "Corporate Selection Retirement Fund No. 2",
+                  "description": null,
+                  "id": 16,
+                  "parentId": 11
+                }
+              ],
+              "type": "Cascade",
+              "order": 2,
+              "header": null,
+              "name": "EMPLOYER DETAILS",
+              "description": "Employer details Cascade for Summary Tab in MBS Report",
+              "id": 11,
+              "parentId": 4
+            },
+            {
+              "reportSubsections": [],
+              "type": "Cascade",
+              "order": 2,
+              "header": null,
+              "name": "EMPLOYER DETAILS",
+              "description": "Employer details Cascade for Summary Tab in MBS Report",
+              "id": 22,
+              "parentId": 4
+            }
+          ],
+          "type": "Cascade",
+          "order": 4,
+          "header": null,
+          "name": "YOUR FUND/PARTICIPATING",
+          "description": "Fund details for Summary Tab in MBS Report",
+          "id": 4,
+          "parentId": 1
+        }
+      ],
+      "reportLinkResourcesList": [
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 1,
+          "parentId": 1
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 16,
+          "parentId": 1
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 17,
+          "parentId": 1
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 2,
+          "parentId": 1
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 3,
+          "parentId": 1
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 18,
+          "parentId": 1
+        }
+      ],
+      "type": null,
+      "order": 1,
+      "header": null,
+      "name": "SUMMARY",
+      "description": "Summary Tab fo MBS Reports",
+      "id": 1,
+      "parentId": 5
+    },
+    {
+      "reportCascades": [
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "IF YOU RETIRE AT AGE 65",
+          "description": "Retiredment benefits Cascade for benefits Tab in MBS Report",
+          "id": 5,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "IF YOU RETIRE AT AGE 65",
+          "description": "Retiredment benefits Cascade for benefits Tab in MBS Report",
+          "id": 25,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "IF YOU LEAVE YOUR EMPLOYER",
+          "description": "Resignation benefits Cascade for benefits Tab in MBS Report",
+          "id": 26,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "IF YOU LEAVE YOUR EMPLOYER",
+          "description": "Resignation benefits Cascade for benefits Tab in MBS Report",
+          "id": 6,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "IF YOU DIE WHILE STILL EMPLOYED",
+          "description": "Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 7,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "IF YOU DIE WHILE STILL EMPLOYED",
+          "description": "Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 27,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 4,
+          "header": null,
+          "name": "IF YOU BECOME DISABLED",
+          "description": "Disability benefits Cascade for benefits Tab in MBS Report",
+          "id": 28,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 4,
+          "header": null,
+          "name": "IF YOU BECOME DISABLED",
+          "description": "Disability benefits Cascade for benefits Tab in MBS Report",
+          "id": 8,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 5,
+          "header": null,
+          "name": "IF YOUR SPOUSE DIES",
+          "description": "Spouse Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 9,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 5,
+          "header": null,
+          "name": "IF YOUR SPOUSE DIES",
+          "description": "Spouse Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 29,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 6,
+          "header": null,
+          "name": "IF ANY OF YOUR CHILDREN DIE",
+          "description": "Child Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 30,
+          "parentId": 2
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 6,
+          "header": null,
+          "name": "IF ANY OF YOUR CHILDREN DIE",
+          "description": "Child Death benefits Cascade for benefits Tab in MBS Report",
+          "id": 10,
+          "parentId": 2
+        }
+      ],
+      "reportLinkResourcesList": [
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 19,
+          "parentId": 2
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 4,
+          "parentId": 2
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 5,
+          "parentId": 2
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 20,
+          "parentId": 2
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 21,
+          "parentId": 2
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 6,
+          "parentId": 2
+        }
+      ],
+      "type": null,
+      "order": 2,
+      "header": null,
+      "name": "YOUR BENEFITS",
+      "description": "Member Benefits Tab fo MBS Reports",
+      "id": 2,
+      "parentId": 5
+    },
+    {
+      "reportCascades": [
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "CONTRIBUTIONS ALLOCATED INTO YOUR RETIREMENT ACCOUNT",
+          "description": "Pie Chart display Cascade for contribution Tab in MBS Report",
+          "id": 11,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "CONTRIBUTIONS ALLOCATED INTO YOUR RETIREMENT ACCOUNT",
+          "description": "Pie Chart display Cascade for contribution Tab in MBS Report",
+          "id": 31,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "CONTRIBUTIONS ALLOCATED INTO YOUR RETIREMENT ACCOUNT",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 32,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "CONTRIBUTIONS ALLOCATED INTO YOUR RETIREMENT ACCOUNT",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 12,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "PREMIUMS ALLOCATED FOR RISK BENEFITS AND MANAGEMENT FEES",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 13,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "PREMIUMS ALLOCATED FOR RISK BENEFITS AND MANAGEMENT FEES",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 33,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 4,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT INVESTMENT SELECTION",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 34,
+          "parentId": 3
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 4,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT INVESTMENT SELECTION",
+          "description": "Data Values display Cascade for contribution Tab in MBS Report",
+          "id": 14,
+          "parentId": 3
+        }
+      ],
+      "reportLinkResourcesList": [
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 7,
+          "parentId": 3
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 22,
+          "parentId": 3
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 23,
+          "parentId": 3
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 8,
+          "parentId": 3
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 9,
+          "parentId": 3
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 24,
+          "parentId": 3
+        }
+      ],
+      "type": null,
+      "order": 3,
+      "header": null,
+      "name": "YOUR CONTRIBUTIONS",
+      "description": "Member Contributions Tab fo MBS Reports",
+      "id": 3,
+      "parentId": 5
+    },
+    {
+      "reportCascades": [
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT SUMMARY",
+          "description": "Retirement account summary Cascade for retiredment Tab in MBS Report",
+          "id": 15,
+          "parentId": 4
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT SUMMARY",
+          "description": "Retirement account summary Cascade for retiredment Tab in MBS Report",
+          "id": 35,
+          "parentId": 4
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "YOUR INVESTMENT PORTFOLIO BREAKDOWN",
+          "description": "Investment portfolio breakdown Cascade for retiredment Tab in MBS Report",
+          "id": 36,
+          "parentId": 4
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "YOUR INVESTMENT PORTFOLIO BREAKDOWN",
+          "description": "Investment portfolio breakdown Cascade for retiredment Tab in MBS Report",
+          "id": 16,
+          "parentId": 4
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT DETAIL",
+          "description": "Retirement account detail Cascade for retiredment Tab in MBS Report",
+          "id": 17,
+          "parentId": 4
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "YOUR RETIREMENT ACCOUNT DETAIL",
+          "description": "Retirement account detail Cascade for retiredment Tab in MBS Report",
+          "id": 37,
+          "parentId": 4
+        }
+      ],
+      "reportLinkResourcesList": [
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 25,
+          "parentId": 4
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 10,
+          "parentId": 4
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 11,
+          "parentId": 4
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 26,
+          "parentId": 4
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 27,
+          "parentId": 4
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 12,
+          "parentId": 4
+        }
+      ],
+      "type": null,
+      "order": 4,
+      "header": null,
+      "name": "YOUR RETIREMENT ACCOUNT",
+      "description": "Member Retirement Tab fo MBS Reports",
+      "id": 4,
+      "parentId": 5
+    },
+    {
+      "reportCascades": [
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "IMPORTANT NOTES",
+          "description": "Important Notes Cascade for imp. notes Tab in MBS Report",
+          "id": 38,
+          "parentId": 5
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 1,
+          "header": null,
+          "name": "IMPORTANT NOTES",
+          "description": "Important Notes Cascade for imp. notes Tab in MBS Report",
+          "id": 18,
+          "parentId": 5
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "GENERAL NOTES",
+          "description": "General Notes Cascade for imp. notes Tab in MBS Report",
+          "id": 19,
+          "parentId": 5
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 2,
+          "header": null,
+          "name": "GENERAL NOTES",
+          "description": "General Notes Cascade for imp. notes Tab in MBS Report",
+          "id": 39,
+          "parentId": 5
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "CONTACT US",
+          "description": "Contact Cascade for imp. notes Tab in MBS Report",
+          "id": 40,
+          "parentId": 5
+        },
+        {
+          "reportSections": [],
+          "type": "Cascade",
+          "order": 3,
+          "header": null,
+          "name": "CONTACT US",
+          "description": "Contact Cascade for imp. notes Tab in MBS Report",
+          "id": 20,
+          "parentId": 5
+        }
+      ],
+      "reportLinkResourcesList": [
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 13,
+          "parentId": 5
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 1,
+          "header": null,
+          "name": "> Contact your fund/participating employer’s financial adviser",
+          "description": null,
+          "id": 28,
+          "parentId": 5
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 29,
+          "parentId": 5
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 2,
+          "header": null,
+          "name": "> View our online Calculators",
+          "description": null,
+          "id": 14,
+          "parentId": 5
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 15,
+          "parentId": 5
+        },
+        {
+          "url": null,
+          "type": "hyperlink",
+          "order": 3,
+          "header": null,
+          "name": "> View trustee communication",
+          "description": null,
+          "id": 30,
+          "parentId": 5
+        }
+      ],
+      "type": null,
+      "order": 5,
+      "header": null,
+      "name": "IMPORTANT NOTES",
+      "description": "Summary Tab fo MBS Reports",
+      "id": 5,
+      "parentId": 5
+    }
+  ],
+  "sourceSystem": 0,
+  "reportUseCase": 0,
+  "reportContext": 0,
+  "code": "MBSS",
+  "url": "/Reports/New Business/Member Benefit Statement.xdo",
+  "outputFormat": 1,
+  "isActive": true,
+  "isCorrespondence": true,
+  "coverLetterSubject": null,
+  "name": "Member Benefit Statement",
+  "description": "Represents the MBS report.",
+  "id": 5,
+  "parentId": 0
+}
