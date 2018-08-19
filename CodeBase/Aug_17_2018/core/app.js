@@ -16,6 +16,7 @@
     });
     //test data
     $scope.temp = {"temp":"123456"};    
+    $scope.tempArr = {"tempA":[{"tlab1":"t1val","tlab2":"tval2"}]}
     //test data ;
     	
 	 $scope.topDirections = ['left', 'up'];
@@ -132,6 +133,42 @@
         return divSubSection;
     }
     function generateMultipleLabelValue (contentDetails) {
+        if(!contentDetails.displayFields){
+            var divRow =    generateBlock("div","There is some problem with configuration in ReportContent Table.","row label-val-row text-danger","","");
+            return divRow;
+        }
+
+        var displayFieldsArray =[];
+        displayFieldsArray = contentDetails.displayFields.includes(";")? contentDetails.displayFields.split(";"):[contentDetails.displayFields];
+        
+        var divPanelBodyRow = generateBlock("div","","row row-mult-label-value"); 
+        for(var g=0; g<displayFieldsArray.length; g++){
+            var fieldDetailsArr = displayFieldsArray[g].includes(":") ? displayFieldsArray[g].split(":"): [displayFieldsArray[g]];            
+            
+            var label = fieldDetailsArr[0] || "";
+            var valPath = fieldDetailsArr[1] || "";
+            var valPrefix = fieldDetailsArr[2] || "";
+            console.log( contentDetails.displayFields);
+            console.log( displayFieldsArray[g]);
+            var val = eval("$scope."+valPath);
+            if(valPrefix  == "currency"){
+             val = "R "+val;
+            }
+            
+            var divPanelBodyRowCol = generateBlock("div","","col-xs-6 col-row-mult-label-value"); 
+            var divPanelBodyRowColLabVal = generateBlock("div","","row"); 
+            var divPanelBodyRowColLab = generateBlock("div",label,"col-sm-12 col-md-6 font-weight-bold"); 
+            var divPanelBodyRowColVal = generateBlock("div",val,"col-sm-12 col-md-6"); 
+
+            divPanelBodyRowColLabVal.append(divPanelBodyRowColLab);
+            divPanelBodyRowColLabVal.append(divPanelBodyRowColVal);
+
+            divPanelBodyRowCol.append(divPanelBodyRowColLabVal)
+            divPanelBodyRow.append(divPanelBodyRowCol);
+        }
+        
+        return divPanelBodyRow;
+        
     }
      function generateReportContent (reportContents) {
           var divReportContents = generateBlock("div","","","","");
@@ -359,80 +396,91 @@
         
         var divPanelCollapse = "";
         if(cascData.layout.isOpen == 1){
-            divPanelCollapse = generateBlock("div","","panel-collapse collapse in",cascId,""); 
+            divPanelCollapse = generateBlock("div","","panel-collapse collapse cascade-panel-container in",cascId,""); 
         }else{
-            divPanelCollapse = generateBlock("div","","panel-collapse collapse",cascId,""); 
+            divPanelCollapse = generateBlock("div","","panel-collapse collapse cascade-panel-container",cascId,""); 
         }
 
 //        var divPanelBody = generateBlock("div","They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow","panel-body","",""); 
 
-        var divPanelBody = generateBlock("div"); 
-        divPanelBody.innerHTML = ` <div class="row">
-
-
-<div class="col-xs-6" style="background-color:lightcyan;">
-		  <div class="row">
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	label1
-		        	</div>	
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	val1
-		        	</div>	
-        	</div>	
-        </div>
-        <div class="col-xs-6" style="background-color:lightcyan;">
-		  <div class="row">
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	label1
-		        	</div>	
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	val1
-		        	</div>	
-        	</div>	
-        </div>
-        <div class="col-xs-6" style="background-color:lightcyan;">
-		  <div class="row">
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	label1
-		        	</div>	
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	val1
-		        	</div>	
-        	</div>	
-        </div>
-        <div class="col-xs-6" style="background-color:lightcyan;">
-		  <div class="row">
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	label1
-		        	</div>	
-			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
-                    	val1
-		        	</div>	
-        	</div>	
-        </div>
-
-
-</div>
-`;
+        var divPanelBody = generateBlock("div","","padding-10px-15px"); 
+        
+//        divPanelBody.append(divPanelBodyRow);
+//        divPanelBody.innerHTML = ` <div class="row">
+//
+//
+//        <div class="col-xs-6" style="background-color:lightcyan;">
+//		  <div class="row">
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	label1
+//		        	</div>	
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	val1
+//		        	</div>	
+//        	</div>	
+//        </div>
+//        <div class="col-xs-6" style="background-color:lightcyan;">
+//		  <div class="row">
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	label1
+//		        	</div>	
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	val1
+//		        	</div>	
+//        	</div>	
+//        </div>
+//        <div class="col-xs-6" style="background-color:lightcyan;">
+//		  <div class="row">
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	label1
+//		        	</div>	
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	val1
+//		        	</div>	
+//        	</div>	
+//        </div>
+//        <div class="col-xs-6" style="background-color:lightcyan;">
+//		  <div class="row">
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	label1
+//		        	</div>	
+//			        <div class="col-sm-12 col-md-6" style="background-color:lightcyan;">
+//                    	val1
+//		        	</div>	
+//        	</div>	
+//        </div>
+//
+//
+//</div>
+//`;
         for(var k=0;k<cascData.layout.reportSections.length; k++){
             var reportSection = cascData.layout.reportSections[k];
-            var divReportSection = generateBlock("div"); 
+            var divReportSection = generateBlock("div","","padding-8px-12px"); 
             console.log(reportSection)
-            if(reportSection.header){
+            if(reportSection.name){
                 //generate header
+                var reportSectionHeader = generateBlock("div",reportSection.name,"border-bottom","","");
+                divReportSection.append(reportSectionHeader);
             }
             if(reportSection.reportSubsections && reportSection.reportSubsections.length>0){
                 for(var t=0;t< reportSection.reportSubsections.length; t++){
                     var rSubsection = reportSection.reportSubsections[t];
-                    if(rSubsection.header){
+                    var divRSubsection = generateBlock("div","","padding-6px-9px");
+                    
+                    if(rSubsection.name){
                         //generate header
+                        var rSubsectionHeader = generateBlock("div",rSubsection.name,"border-bottom","","");
+                        divRSubsection.append(rSubsectionHeader);
                     }
                     if(rSubsection.reportContents && rSubsection.reportContents.length>0){
+                        var reportContent= generateReportContent(rSubsection.reportContents)
+                        divRSubsection.append(reportContent);
+                        divReportSection.append(divRSubsection);
+                        divPanelBody.append(divReportSection);
                     }
                 }
             }
         }
-        
         
         
         divPanelCollapse.append(divPanelBody);

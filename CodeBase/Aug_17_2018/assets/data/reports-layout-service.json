@@ -951,7 +951,7 @@
                   "dataPath": null,
                   "reportContents": [
                     {
-                      "displayFields": ".[Name:temp.temp;Membership number:temp.temp;Payroll number:temp.temp;Date of birth:temp.temp;Normal retirement date:temp.temp;ID number:temp.temp;Normal retirement age:temp.temp;Date joined company:temp.temp;Marital status:temp.temp;Date joined fund/participating employer:temp.temp;Membership category:temp.temp;Annual pensionable salary:temp.temp:currency]",
+                      "displayFields": "Name:temp.temp;Membership number:temp.temp;Payroll number:temp.temp;Date of birth:temp.temp;Normal retirement date:temp.temp;ID number:temp.temp;Normal retirement age:temp.temp;Date joined company:temp.temp;Marital status:temp.temp;Date joined fund/participating employer:temp.temp;Membership category:temp.temp;Annual pensionable salary:temp.temp:currency",
                       "paraText": "",
                       "dataPath": null,
                       "type": "multiplelabelvalue",
@@ -986,42 +986,17 @@
                   "displayFields": null,
                   "paraText": null,
                   "dataPath": null,
-                  "reportContents": [],
-                  "type": null,
-                  "order": 1,
-                  "header": null,
-                  "name": null,
-                  "description": null,
-                  "id": 30,
-                  "parentId": 9
-                },
-                {
-                  "displayFields": null,
-                  "paraText": null,
-                  "dataPath": null,
                   "reportContents": [
                     {
                       "displayFields": null,
                       "paraText": "Please check your personal details on this statement and report any discrepancies to your Human Resources department or your fund/participating employer’s financial adviser",
                       "dataPath": null,
-                      "type": null,
+                      "type": "paragraph",
                       "order": 1,
                       "header": null,
                       "name": null,
                       "description": null,
                       "id": 111,
-                      "parentId": 14
-                    },
-                    {
-                      "displayFields": null,
-                      "paraText": "Please check your personal details on this statement and report any discrepancies to your Human Resources department or your fund/participating employer’s financial adviser",
-                      "dataPath": null,
-                      "type": null,
-                      "order": 1,
-                      "header": null,
-                      "name": null,
-                      "description": null,
-                      "id": 54,
                       "parentId": 14
                     }
                   ],
@@ -1054,16 +1029,6 @@
         {
           "reportSections": [
             {
-              "reportSubsections": [],
-              "type": "Cascade",
-              "order": 1,
-              "header": null,
-              "name": "EMPLOYER S FINANCIAL ADVISER",
-              "description": "Financial adviser Cascade for Summary Tab in MBS Report",
-              "id": 21,
-              "parentId": 4
-            },
-            {
               "reportSubsections": [
                 {
                   "displayFields": null,
@@ -1071,22 +1036,10 @@
                   "dataPath": null,
                   "reportContents": [
                     {
-                      "displayFields": null,
-                      "paraText": ".[Name:temp.temp;Telephone:temp.temp;Cell:temp.temp;Email:temp.temp]",
+                      "displayFields": "Name:temp.temp;Telephone:temp.temp;Cell:temp.temp;Email:temp.temp",
+                      "paraText": "",
                       "dataPath": null,
-                      "type": null,
-                      "order": 1,
-                      "header": null,
-                      "name": null,
-                      "description": null,
-                      "id": 55,
-                      "parentId": 15
-                    },
-                    {
-                      "displayFields": null,
-                      "paraText": ".[Name:temp.temp;Telephone:temp.temp;Cell:temp.temp;Email:temp.temp]",
-                      "dataPath": null,
-                      "type": null,
+                      "type": "multiplelabelvalue",
                       "order": 1,
                       "header": null,
                       "name": null,
@@ -1098,24 +1051,12 @@
                       "displayFields": null,
                       "paraText": "Note: It is important to obtain professional advice before electing a benefit or on termination of your membership.",
                       "dataPath": null,
-                      "type": null,
+                      "type": "paragraph",
                       "order": 2,
                       "header": null,
                       "name": null,
                       "description": null,
                       "id": 113,
-                      "parentId": 15
-                    },
-                    {
-                      "displayFields": null,
-                      "paraText": "Note: It is important to obtain professional advice before electing a benefit or on termination of your membership.",
-                      "dataPath": null,
-                      "type": null,
-                      "order": 2,
-                      "header": null,
-                      "name": null,
-                      "description": null,
-                      "id": 56,
                       "parentId": 15
                     }
                   ],
@@ -1125,19 +1066,6 @@
                   "name": null,
                   "description": null,
                   "id": 15,
-                  "parentId": 10
-                },
-                {
-                  "displayFields": null,
-                  "paraText": null,
-                  "dataPath": null,
-                  "reportContents": [],
-                  "type": null,
-                  "order": 1,
-                  "header": null,
-                  "name": null,
-                  "description": null,
-                  "id": 31,
                   "parentId": 10
                 }
               ],
@@ -1155,37 +1083,12 @@
                   "displayFields": null,
                   "paraText": null,
                   "dataPath": null,
-                  "reportContents": [],
-                  "type": "paragraph",
-                  "order": 1,
-                  "header": null,
-                  "name": "Corporate Selection Retirement Fund No. 2",
-                  "description": null,
-                  "id": 32,
-                  "parentId": 11
-                },
-                {
-                  "displayFields": null,
-                  "paraText": null,
-                  "dataPath": null,
                   "reportContents": [
                     {
-                      "displayFields": null,
-                      "paraText": ".[Employer:temp.temp;Scheme number:temp.temp;Paypoint:temp.temp;Date of birth:temp.temp]",
+                      "displayFields": "Employer:temp.temp;Scheme number:temp.temp;Paypoint:temp.temp;Date of birth:temp.temp",
+                      "paraText": "",
                       "dataPath": null,
-                      "type": null,
-                      "order": 1,
-                      "header": null,
-                      "name": null,
-                      "description": null,
-                      "id": 57,
-                      "parentId": 16
-                    },
-                    {
-                      "displayFields": null,
-                      "paraText": ".[Employer:temp.temp;Scheme number:temp.temp;Paypoint:temp.temp;Date of birth:temp.temp]",
-                      "dataPath": null,
-                      "type": null,
+                      "type": "multiplelabelvalue",
                       "order": 1,
                       "header": null,
                       "name": null,
@@ -1209,16 +1112,6 @@
               "name": "EMPLOYER DETAILS",
               "description": "Employer details Cascade for Summary Tab in MBS Report",
               "id": 11,
-              "parentId": 4
-            },
-            {
-              "reportSubsections": [],
-              "type": "Cascade",
-              "order": 2,
-              "header": null,
-              "name": "EMPLOYER DETAILS",
-              "description": "Employer details Cascade for Summary Tab in MBS Report",
-              "id": 22,
               "parentId": 4
             }
           ],
